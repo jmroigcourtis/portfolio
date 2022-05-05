@@ -14,11 +14,14 @@ export const Presentation = () => {
    const {colorMode, toggleColorMode } = useColorMode()
 
 
-   return (<Box  m={'auto'}>
-                  <Button m={2} onClick={toggleColorMode}>
-                  {colorMode === 'light' ? <MoonIcon/> : <SunIcon/>}
-                  </Button>
-               <Stack direction={'row'} align='flex-end' w={'400px'} h={'400px'} mx={'auto'} mt={90}>
+   return (
+   <>
+   
+      <Button m={2} onClick={toggleColorMode}>
+      {colorMode === 'light' ? <MoonIcon/> : <SunIcon/>}
+      </Button>
+      <Box  m={'auto'}>
+   <Stack direction={'row'} align='flex-end' w={'400px'} h={'400px'} mx={'auto'} mt={90}>
                   <Box bgColor={'op1.500'}>
                      <Image src={portfolioPic} alt='Juan Manuel Roig Courtis' borderRadius={200} shadow='2xl' mt={10} />      
                   </Box>
@@ -52,6 +55,7 @@ export const Presentation = () => {
                            </HStack>
                   </Box>
             </Box>
+   </>
    )
 }   
    
