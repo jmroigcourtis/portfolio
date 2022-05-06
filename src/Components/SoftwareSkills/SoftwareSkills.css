@@ -1,0 +1,69 @@
+svg {
+    width: 60px;
+    height: 60px;
+
+}
+
+.htmlIcon {
+    color: #e44f26;
+}
+.cssIcon {
+   color: #2465f1;
+}
+.btIcon {
+    color: #7310f6;
+}
+.reactIcon {
+    color: #59c3e0;
+}
+.fdbIcon {
+    color: #ffa610;
+}
+
+.gitIcon {
+    color: #f44d27;
+}
+
+.ghubIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.htmlIcon,
+.cssIcon,
+.btIcon,
+.reactIcon,
+.fdbIcon,
+.gitIcon,
+.ghubIcon {
+    animation: svgZoomOut 0.4s ease-out ;
+}
+
+.htmlIcon:hover,
+.cssIcon:hover,
+.btIcon:hover,
+.reactIcon:hover,
+.fdbIcon:hover,
+.gitIcon:hover,
+.ghubIcon:hover {
+    animation: svgZoomIn 0.4s forwards;
+}
+
+@keyframes svgZoomIn {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+@keyframes svgZoomOut {
+    from {
+        transform: scale(1.1);
+    }
+    
+    to {
+        transform: scale(1);
+    }
+}

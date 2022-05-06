@@ -1,10 +1,15 @@
-import { extendTheme, theme } from "@chakra-ui/react"
+// theme.js
 
-export default extendTheme({
-    colors: {
-        whatsapp: theme.colors.whatsapp,
-        black: theme.colors.black,
-    },
-    
-})
+// 1. import `extendTheme` function
+import { extendTheme } from '@chakra-ui/react'
 
+// 2. Add your color mode config
+const config = {
+  initialColorMode: 'light',
+  useSystemColorMode: false,
+}
+
+// 3. extend the theme
+const theme = extendTheme({ config })
+
+export default theme
