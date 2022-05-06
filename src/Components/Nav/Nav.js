@@ -7,7 +7,7 @@ export const NavMain = () => {
 
     return (
         
-        <Flex w={'100%'} h={'50px'} justify={'flex-end'} pos={'fixed'} top={2}>
+        <Flex w={'100%'} h={'50px'} justify={'flex-end'} pos={'fixed'} top={0}>
                 <Button onClick={toggleColorMode} m={2}>
                 {colorMode === 'light' ? <MoonIcon/> : <SunIcon/>}
                 </Button>
