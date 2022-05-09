@@ -17,14 +17,14 @@ export const Proyects = () => {
                 <HStack spacing={'200px'}>
                     <Box className="projectBox" cursor={'pointer'} borderRadius='lg' bgColor={'red.500'} borderWidth='2px' maxW='sm'  w={'400px'} h={'400px'} shadow='sm'>
                         <BiJoystickAlt className="joystickIcon" />
-                <Link className="textStyle" borderRadius='lg' borderWidth={0}  _focus={'none'} href="https://geekland.vercel.app/" isExternal fontSize={'40px'} fontWeight={"bold"} textAlign={'center'} color={'white'} >
-                        <Text fontSize={'40px'} fontWeight={"bold"} textAlign={'center'} color={'white'}>Geekland</Text>
-                    </Link>
+                        <Link className="textStyle" borderRadius='lg' borderWidth={0}  _focus={'none'} href="https://geekland.vercel.app/" isExternal fontSize={'40px'} fontWeight={"bold"} textAlign={'center'} color={'white'} >
+                            <Text fontSize={'40px'} fontWeight={"bold"} textAlign={'center'} color={'white'}>Geekland</Text>
+                        </Link>
                     </Box>
-                    <Box borderRadius='lg' borderWidth='2px' maxW='sm'  w={'400px'} h={'400px'} shadow='sm'>
-                        <Image borderRadius='lg' w={'500px'}src={RickMorty} alt='Rick and Morty'/>
-                            {/* <Text fontSize={'40px'} fontWeight={"bold"} textAlign={'center'} color={'white'}>Rick and Morty App</Text> */}
 
+                    <Box className="projectBox" cursor={'pointer'} borderRadius='lg' borderWidth='2px' maxW='sm' bgColor={'#14171e'}  w={'400px'} h={'400px'} shadow='sm'>
+                        <Image borderRadius='lg' h={'350px'} w={'500px'}src={RickMorty} alt='Rick and Morty'/>
+                        <Text fontSize={'35px'} fontWeight={"bold"} textAlign={'center'} color={'white'} marginTop={'-50px'} >Rick and Morty app</Text>
                     </Box>
                     <Box borderRadius='lg' borderWidth='2px' maxW='sm'  w={'400px'} h={'400px'} shadow='sm'>
                     
