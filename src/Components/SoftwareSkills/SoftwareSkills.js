@@ -1,5 +1,5 @@
 import {Box, HStack, Text} from '@chakra-ui/react'
-import {FaHtml5, FaCss3, FaBootstrap, FaReact, FaGithub, FaGitAlt} from 'react-icons/fa';
+import {FaHtml5, FaCss3, FaBootstrap, FaReact, FaGitAlt} from 'react-icons/fa';
 import {IoLogoJavascript} from 'react-icons/io';
 import {SiFirebase} from 'react-icons/si';
 import './SoftwareSkills.css'
@@ -18,10 +18,10 @@ export const SoftwareSkills = () => {
                                  <FaHtml5 className='htmlIcon'/>
                                  <FaCss3 className='cssIcon'/>
                                  <FaBootstrap className='btIcon'/>
-                                 <IoLogoJavascript />
+                                 <IoLogoJavascript className='jsIcon' />
                                  <FaReact className='reactIcon'/>
                                  <SiFirebase className='fdbIcon'/>
-                                 <FaGithub className='ghIcon'/>
+                                 {/* <FaGithub className='ghIcon'/> */}
                                  <FaGitAlt className='gitIcon'/>
                            </HStack>
         </Box>
