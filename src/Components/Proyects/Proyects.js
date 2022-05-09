@@ -7,7 +7,7 @@ export const Proyects = () => {
 
     return (
         <Stack>
-            <HStack m={'auto'} my={'125px'} justifyContent={'center'} bgColor={'blue.700'} w={'25%'} shadow='base'>
+            <HStack m={'auto'} my={'125px'} justifyContent={'center'} bgColor={'blue.700'} w={'25%'} shadow='base' borderRadius={'50px'}>
                     <Text textAlign={'center'} fontSize={'20px'} color={'blue.50'} fontWeight='600' p={2}>
                         My proyects
                     </Text>
